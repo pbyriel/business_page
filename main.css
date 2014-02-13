@@ -66,16 +66,16 @@ div#wrapper {
        min-height: 100%;
        height: auto !important;
        height: 100%;
-       margin: 0px 0px -120px 0px;
+       margin: 0% 0% -10% 0%;
  }
 
 div#content_wrapper {
-       padding: 0px 0px 120px 0px;
+       padding: 0% 0% 10% 0%;
  }
 
 
 div#footer_wrapper {
-    height: 120px;
+    height: 10%;
     position: relative;
     background-color: rgb(235,235,235);
 	border-top: 1px solid rgb(245, 245, 245);
@@ -203,10 +203,14 @@ nav {
 }
 
 #about {
+    position: relative;
+    left: 0%;
     width: 50%;
-    float: left;
 }
 
 #address {
-    float: right;
+    position: absolute;
+    top: 0;
+    right: 20%;
+    padding: 1%;
 }
